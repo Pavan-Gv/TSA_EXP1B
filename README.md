@@ -66,7 +66,7 @@ plt.ylabel('Log Values',color='red')
 
 <b>SEASONAL ADJUSTMENT:</b>
 
-![image](https://github.com/Pavan-Gv/TSA_EXP1B/assets/94827772/01436e52-9d4f-4254-9bbf-1c6b98ccbc74)
+![image](https://github.com/Pavan-Gv/TSA_EXP1B/assets/94827772/e121a175-edfc-4cdd-bddd-db6dca44f5d0)
 
 <b>LOG TRANSFORMATION:</b>
 
