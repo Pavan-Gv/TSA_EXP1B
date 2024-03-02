@@ -11,7 +11,7 @@ To perform regular differncing,seasonal adjustment and log transformatio on inte
 5. Display the overall results.
 ### PROGRAM:
 <b>IMPORTING PACKAGES:</b>
-```
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,7 +21,7 @@ train['DATE'] = pd.to_datetime(train['DATE'], format='%d/%m/%Y')
 train.head()
 ```
 <b>REGULAR DIFFERENCING:</b>
-```
+```python
 from statsmodels.tsa.stattools import adfuller
 def adf_test(timeseries):
     print ('Results of Dickey-Fuller Test:')
@@ -36,7 +36,7 @@ train['DATE'] = pd.to_datetime(train['DATE'], format='%d/%m/%Y')
 train['Year'] = train['DATE'].dt.year
 ```
 <b>SEASONAL ADJUSTMENT:</b>
-```
+```python
 data=train
 data['SeasonalAdjustment'] = data.iloc[:,1] - data.iloc[:,1].shift(12)
 data['SeasonalAdjustment'].dropna()
@@ -49,7 +49,7 @@ plt.ylabel("<-----Usage---->",color='red')
 plt.show()
 ```
 <b>LOG TRANSFORMATION:</b>
-```
+```python
 data1=train
 data1['log']=np.log(data1['IPG2211A2N_diff']).dropna()
 data1=data1.dropna()
