@@ -62,7 +62,7 @@ plt.ylabel('Log Values',color='red')
 
 <b>REGULAR DIFFERENCING:</b>
 
-![image](https://github.com/Pavan-Gv/TSA_EXP1B/assets/94827772/64ce2a67-f8b2-48c2-bc13-1e0d80ede2af)
+![Uploading image.png…]()
 
 <b>SEASONAL ADJUSTMENT:</b>
 
