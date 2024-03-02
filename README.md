@@ -10,8 +10,18 @@ To perform regular differncing,seasonal adjustment and log transformatio on inte
 4. Plot the data according to need, before and after regular differncing,seasonal adjustment,log transformation.
 5. Display the overall results.
 ### PROGRAM:
+<b>REGULAR DIFFERENCING:</b>
+```
 
+```
+<b>SEASONAL ADJUSTMENT:</b>
+```
 
+```
+<b>LOG TRANSFORMATION:</b>
+```
+
+```
 ### OUTPUT:
 
 
