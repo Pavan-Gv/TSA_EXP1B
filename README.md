@@ -70,7 +70,7 @@ plt.ylabel('Log Values',color='red')
 
 <b>LOG TRANSFORMATION:</b>
 
-![image](https://github.com/Pavan-Gv/TSA_EXP1B/assets/94827772/9e53a725-7181-4775-bf7e-429634297487)
+![image](https://github.com/Pavan-Gv/TSA_EXP1B/assets/94827772/dcfa8245-c1b6-4358-ba2f-44f5e029d38f)
 
 ### RESULT:
 Thus we have created the python code for the conversion of non stationary to stationary data on international airline passenger data.
